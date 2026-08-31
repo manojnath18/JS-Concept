@@ -1,28 +1,37 @@
 body {
-  font-family: Arial;
+  text-align: center;
 }
 
-#mainImg {
-  width: 35%;
-}
-
-.box {
-  border: 0.25px solid black;
-  background-color: lightgray;
+.btn{
   width: 200px;
-  padding: 1rem;
-}
-
-.boxLink {
-  text-decoration: none;
-}
-
-.oldImg {
   height: 200px;
-  width: 200px;
-  margin-right: 1rem;
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 2.5rem;
 }
 
-#description {
-  background-color: antiquewhite;
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.red{
+  background-color: #d95980;
+}
+.yellow{
+  background-color: #f99b45;
+}
+.green{
+  background-color: #63aac0;
+}
+.purple{
+  background-color: #819ff9;
+}
+
+.flash{
+  background-color: white;
+}
+
+.userflash{
+  background-color: green;
 }
